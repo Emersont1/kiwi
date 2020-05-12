@@ -1,6 +1,6 @@
 KiWi - The Killer Widgets library
 =================================
-![Linux](https://github.com/mobius3/kiwi/workflows/Linux/badge.svg)
+![Linux](https://github.com/Emersont1/kiwi/workflows/Linux/badge.svg)
 
 *Killer Widgets* (KiWi) is a widget-based GUI library for game developers to use in their 2D games, written in C99. Its widgets are constructed by using a tileset, allowing you to easly customize the looks of your GUI by simply changing its tiles.
 
@@ -8,14 +8,14 @@ KiWi works around SDL2 libraries but has space for custom rendering backends.
 
 Here are some screenshots (click on them to see code):
 
-[![Label screenshot](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/label/label-screenshot.png "Label screenshot")](https://github.com/mobius3/KiWi/blob/master/examples/label/label.c)
-[![A Family of Frames](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/frame-family/frame-family-screenshot.png "A Family of Frames")](https://github.com/mobius3/KiWi/blob/master/examples/frame-family/frame-family.c)
+[![Label screenshot](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/label/label-screenshot.png "Label screenshot")](https://github.com/Emersont1/kiwi/blob/master/examples/label/label.c)
+[![A Family of Frames](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/frame-family/frame-family-screenshot.png "A Family of Frames")](https://github.com/Emersont1/kiwi/blob/master/examples/frame-family/frame-family.c)
 
-[![Two Editboxes and a button](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/editbox/editbox-screenshot.png "Two Editboxes and a button")](https://github.com/mobius3/KiWi/blob/master/examples/editbox/editbox.c)
-[![Styleswitcher](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/styleswitcher/styleswitcher-screenshot.gif "Styleswitcher")](https://github.com/mobius3/KiWi/blob/master/examples/styleswitcher/styleswitcher.c)
+[![Two Editboxes and a button](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/editbox/editbox-screenshot.png "Two Editboxes and a button")](https://github.com/Emersont1/kiwi/blob/master/examples/editbox/editbox.c)
+[![Styleswitcher](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/styleswitcher/styleswitcher-screenshot.gif "Styleswitcher")](https://github.com/Emersont1/kiwi/blob/master/examples/styleswitcher/styleswitcher.c)
 
-[![A scrollbox full of dragable buttons](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/scrollbox/scrollbox-screenshot.gif "A scrollbox full of dragable buttons")](https://github.com/mobius3/KiWi/blob/master/examples/scrollbox/scrollbox.c)
-[![Checkboxes and Radio Buttons](https://raw.githubusercontent.com/mobius3/KiWi/master/examples/checkbox-radio/checkbox-radio-screenshot.png)](https://github.com/mobius3/KiWi/blob/master/examples/checkbox-radio/checkbox-radio.c)
+[![A scrollbox full of dragable buttons](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/scrollbox/scrollbox-screenshot.gif "A scrollbox full of dragable buttons")](https://github.com/Emersont1/kiwi/blob/master/examples/scrollbox/scrollbox.c)
+[![Checkboxes and Radio Buttons](https://raw.githubusercontent.com/Emersont1/kiwi/master/examples/checkbox-radio/checkbox-radio-screenshot.png)](https://github.com/Emersont1/kiwi/blob/master/examples/checkbox-radio/checkbox-radio.c)
 
 **Road to 1.0.0**
 
@@ -100,8 +100,8 @@ int main(int argc, char ** argv) {
 }
 ```
 
-[label]:https://github.com/mobius3/KiWi/blob/master/examples/label/label.c
-[KW_CreateWidget]: https://github.com/mobius3/KiWi/blob/master/src/KW_widget.h#L106
+[label]:https://github.com/Emersont1/kiwi/blob/master/examples/label/label.c
+[KW_CreateWidget]: https://github.com/Emersont1/kiwi/blob/master/src/KW_widget.h#L106
 [SDL2]: http://libsdl.org
 [SDL2_ttf]: https://www.libsdl.org/projects/SDL_ttf/
 [SDL2_image]: https://www.libsdl.org/projects/SDL_image/
