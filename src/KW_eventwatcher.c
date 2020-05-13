@@ -147,7 +147,7 @@ int KW_EventWatcher(void * data, SDL_Event * event) {
   SDL_LockMutex(gui->evqueuelock);
   if (!gui->handleevents) {
     SDL_UnlockMutex(gui->evqueuelock);
-    return;
+    return 0; // should this be a 1 ?
   }
   gui->evqueue[(gui->evqueuesize)++] = *event;
   SDL_UnlockMutex(gui->evqueuelock);
